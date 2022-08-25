@@ -1,0 +1,8 @@
+setupenvironment/
+pyenv/
+__pycache__/
+backups/
+data/
+temp/
+trash/
+.ipynb_checkpoints/
