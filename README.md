@@ -1,8 +1,12 @@
-# Adult Income Dataset a.k.a "Census Income"
-### _Advanced Machine Learning FHNW Brugg_
-Claudio Schmidli
+<h1 align="center">Adult Income Dataset a.k.a "Census Income"</h1>
+<h3 align="center">Course Project @ FHNW</h3>
+<h3 align="center">Advanced Machine Learning</h3>
+<h4 align="center">Claudio Schmidli</h4>
+<h4 align="center">25.08.2022</h4>
 
-Date: 25.08.2022
+
+
+
 ### Task
 Predict whether income exceeds $50K/yr based on census data. Also known as [Census Income" dataset](https://www.kaggle.com/datasets/rdcmdev/adult-income-dataset?select=adult.data).
 
@@ -26,7 +30,7 @@ I fullfilled the expected assessment criteria as follows:
 </thead>
 <tbody>
   <tr>
-    <td>richtiges Anwenden der Besonderheiten des data-sets</td>
+    <td>Correct application of the special features of the data set</td>
     <td>
       <ul>
           <li>Different missing value treatments were tested (dropping, most freq. imputation, predict missing)</li>
@@ -38,7 +42,7 @@ I fullfilled the expected assessment criteria as follows:
     </td>
   </tr>
   <tr>
-    <td>Auswahl richtige loss-Funktion</td>
+    <td>Selecting the correct loss function</td>
     <td>
       <ul>
           <li>I used the f1 score to evaluate the model</li>
@@ -47,7 +51,7 @@ I fullfilled the expected assessment criteria as follows:
     </td>
   </tr>
   <tr>
-    <td>Verteilung der target-Values</td>
+    <td>Distribution of target values</td>
     <td>
       <ul>
           <li>I visualized the impalanced targets (see <a href="EDA.ipynb">EDA.ipynb</a>)</li>
@@ -65,7 +69,7 @@ I fullfilled the expected assessment criteria as follows:
     </td>
   </tr>
   <tr>
-    <td>korrekte Einschätzung der Modell-Performance</td>
+    <td>Correct assessment of model performance</td>
     <td>
       <ul>
           <li>I used cross validation to estimate the performance of the model</li>
@@ -76,7 +80,7 @@ I fullfilled the expected assessment criteria as follows:
     </td>
   </tr>
   <tr>
-    <td>richtiges Anwenden von feature-importance</td>
+    <td>Correct use of feature-importance</td>
     <td>
       <ul>
           <li>I used premuatation improtance to estimate the performance of a feature</li>
@@ -86,7 +90,7 @@ I fullfilled the expected assessment criteria as follows:
     </td>
   </tr>
   <tr>
-    <td>grid-search: korrekte Definition des Such-Raums</td>
+    <td>grid-search: correct definition of the search space</td>
     <td>
       <ul>
           <li>I used grid search to optimize model parameters (see <a href="Logisticd_regression.ipynb">Logistic_regression.ipynb</a>/<a href="lightgbm.ipynb">lightgbm.ipynb</a>)</li>
@@ -96,7 +100,7 @@ I fullfilled the expected assessment criteria as follows:
     </td>
   </tr>
   <tr>
-    <td>Verwendung von Pipelines</td>
+    <td>Use of pipelines</td>
     <td>
       <ul>
           <li>I used pipelines to generate and evaluate my models (see <a href="Logistic_regression.ipynb">Logistic_regression.ipynb</a>/<a href="lightgbm.ipynb">lightgbm.ipynb</a>)</li>
@@ -105,7 +109,7 @@ I fullfilled the expected assessment criteria as follows:
     </td>
   </tr>
   <tr>
-    <td>Suche nach bestem Algorithmus (Lern-Algorithmus); <br>mindestens 2 verschieden Ansätze</td>
+    <td>Search for best algorithm (learning algorithm); <br>at least 2 different approaches</td>
     <td>
       <ul>
           <li>I trained a logistic regression model (see <a href="Logistic_regression.ipynb">Logistic_regression.ipynb</a>)</li>
